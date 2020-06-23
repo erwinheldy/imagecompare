@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagecompare</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../dist/css/imagecompare.min.css">
+</head>
+<body>
+  <div class="container mt-3">
+    <div class="imagecompare" id="example1">
+      <img src="compare1.png">
+      <div class="comparator">
+        <img src="compare2.png">
+      </div>
+      <div class="divider"></div>
+    </div>
+  </div>
+
+  <script src="../dist/js/imagecompare.min.js"></script>
+  <script>
+    imagecompare(document.getElementById('example1'))
+  </script>
+</body>
+</html>
