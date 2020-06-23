@@ -1,0 +1,2 @@
+# imagecompare
+Simple image comparison
